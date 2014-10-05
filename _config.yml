@@ -15,7 +15,7 @@ stackoverflow   : http://stackoverflow.com/users/2141535/lefoy?tab=summary
 version         : 1.0.0
 markdown        : redcarpet
 highlighter     : pygments
-permalink       : /blog/:title
+permalink       : /experiments/:categories/:year/:month/:day/:title.html
 
 # Assets
 sass:
