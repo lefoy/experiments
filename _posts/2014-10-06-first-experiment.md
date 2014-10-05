@@ -1,7 +1,7 @@
 ---
 layout: default
 title: First experiments
-permalink: first-experiments
+permalink: experiments/first-experiments
 published: true
 ---
 
