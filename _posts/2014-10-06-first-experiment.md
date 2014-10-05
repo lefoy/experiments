@@ -1,6 +1,6 @@
 ---
 layout: default
-title: First experiments
+title: First experiment
 published: true
 ---
 
