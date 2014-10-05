@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Link Hover Effects
+permalink: link-hover-effects
 published: true
 ---
 
