@@ -150,3 +150,22 @@ body {
         }
     }
 }
+
+// Grid
+.grid {
+    font-size: 0;
+    line-height: 0;
+    @include clearfix();
+    .grid-element {
+        display: inline-block;
+        padding: 20px;
+        font-size: 1rem;
+        line-height: 1;
+    }
+}
+
+@for $i from 1 through 12 {
+    .grid-#{$i} .grid-element {
+        width: (100% / $i);
+    }
+}

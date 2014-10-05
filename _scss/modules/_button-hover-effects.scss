@@ -1,0 +1,86 @@
+.button-hover-effects {
+    $color: #000;
+    $inverted: #fff;
+    button {
+        position: relative;
+        padding: 10px;
+        color: $color;
+        border: 4px solid $color;
+        background-color: transparent;
+        @include transition-property(all);
+        @include transition-duration(150ms);
+        &:before,
+        &:after {
+            content: "";
+            display: block;
+            z-index: -1;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            @include transition-property(all);
+            @include transition-duration(150ms);
+        }
+        &.fill-top {
+            &:after,
+            &:before {
+                top: auto;
+                bottom: 0;
+                height: 0;
+                background-color: $color;
+            }
+            &:hover {
+                color: $inverted;
+                &:after,
+                &:before {
+                    height: 100%;
+                }
+            }
+        }
+        &.fill-right {
+            &:after,
+            &:before {
+                width: 0;
+                background-color: $color;
+            }
+            &:hover {
+                color: $inverted;
+                &:after,
+                &:before {
+                    width: 100%;
+                }
+            }
+        }
+        &.fill-bottom {
+            &:after,
+            &:before {
+                height: 0;
+                background-color: $color;
+            }
+            &:hover {
+                color: $inverted;
+                &:after,
+                &:before {
+                    height: 100%;
+                }
+            }
+        }
+        &.fill-left {
+            &:after,
+            &:before {
+                right: 0;
+                left: auto;
+                width: 0;
+                background-color: $color;
+            }
+            &:hover {
+                color: $inverted;
+                &:after,
+                &:before {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

@@ -7,7 +7,7 @@ published: true
 
 ## Underline
 
-<div class="experiment link-hover-effects underline-effect">
+<div class="underline-effect">
     <ul>
         <li><a href="#">Item 1</a></li>
         <li><a href="#">Item 2</a></li>
@@ -20,7 +20,7 @@ published: true
 
 ## Background
 
-<div class="experiment link-hover-effects background-effect">
+<div class="background-effect">
     <ul>
         <li><a href="#">Item 1</a></li>
         <li><a href="#">Item 2</a></li>

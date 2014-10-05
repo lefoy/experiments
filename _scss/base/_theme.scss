@@ -103,9 +103,17 @@
     }
 }
 
+.label {
+    font-size: 0.8125rem;
+}
+
 .copyright {
     background-color: rgba(0, 0, 0, 0.1);
     p {
         font-size: 14px;
     }
+}
+
+.button-hover-effects .grid-element {
+    text-align: center;
 }
