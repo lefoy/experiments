@@ -1,0 +1,27 @@
+.css-blobbing-demo {
+    position: relative;
+    overflow: hidden;
+    padding: 100px;
+    text-align: center;
+    background-color: #fff;
+    cursor: none;
+    -webkit-filter: contrast(20);
+    filter: contrast(20);
+    .shape,
+    .hover {
+        $diameter: 80px;
+        display: inline-block;
+        width: $diameter;
+        height: $diameter;
+        margin: 10px;
+        background-color: #000;
+        -webkit-filter: blur(20px);
+        filter: blur(20px);
+        @include border-radius(50%);
+    }
+    .hover {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
