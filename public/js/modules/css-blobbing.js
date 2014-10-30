@@ -8,7 +8,7 @@ jQuery(document).ready(function($) {
             left = demo.offset().left,
             width = hover.width();
 
-        $(document).on('mousemove', function(e) {
+        demo.on('mousemove', function(e) {
             hover.css({
                 left: e.pageX - left - width / 2,
                 top: e.pageY - top - width / 2
