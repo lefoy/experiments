@@ -1,12 +1,13 @@
 jQuery(document).ready(function($) {
 
-    var demo = $('.css-blobbing-demo'),
-        hover =  demo.find('.hover'),
-        top = demo.offset().top,
-        left = demo.offset().left,
-        width = hover.width();
+    if ($('.css-blobbing-demo').length > 0) {
 
-    if (hover.length > 0) {
+        var demo = $('.css-blobbing-demo'),
+            hover = demo.find('.hover'),
+            top = demo.offset().top,
+            left = demo.offset().left,
+            width = hover.width();
+
         $(document).on('mousemove', function(e) {
             hover.css({
                 left: e.pageX - left - width / 2,
