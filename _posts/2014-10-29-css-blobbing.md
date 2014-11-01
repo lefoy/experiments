@@ -9,12 +9,6 @@ published: true
     <div class="shape"></div>
     <div class="shape"></div>
     <div class="shape"></div>
-    <div class="shape"></div>
-    <div class="shape"></div>
-    <div class="shape"></div>
-    <div class="shape"></div>
-    <div class="shape"></div>
-    <div class="shape"></div>
     <div class="hover"></div>
 </div>
 
