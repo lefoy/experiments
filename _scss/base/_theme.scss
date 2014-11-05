@@ -39,10 +39,11 @@
 }
 
 .project-header {
-    background-color: #000;
-    background-image: url(../public/img/background.jpg);
-    background-position: center 10%;
-    background-size: cover;
+    background: -webkit-linear-gradient(90deg, #de6262 10%, #ffb88c 90%);
+    background: -moz-linear-gradient(90deg, #de6262 10%, #ffb88c 90%);
+    background: -ms-linear-gradient(90deg, #de6262 10%, #ffb88c 90%);
+    background: -o-linear-gradient(90deg, #de6262 10%, #ffb88c 90%);
+    background: linear-gradient(90deg, #de6262 10%, #ffb88c 90%);
 }
 
 .project-buttons {
